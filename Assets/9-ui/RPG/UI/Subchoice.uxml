@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/9-ui/RPG/UI/RPG.uss?fileID=7433441132597879392&amp;guid=abad1a4b4b0e9631fba56663b884d024&amp;type=3#RPG" />
+    <engine:ListView data-source="project://database/Assets/9-ui/RPG/ScriptableObjects/ChoicesData.asset?fileID=11400000&amp;guid=48ea2c9e3452e506fae341f1cb83a408&amp;type=2#ChoicesData" item-template="project://database/Assets/9-ui/RPG/UI/ChoiceButton.uxml?fileID=9197481963319205126&amp;guid=d848663b23dea838aa23bb84d0f64227&amp;type=3#ChoiceButton" binding-source-selection-mode="AutoAssign" fixed-item-height="10" class="twoColumn frame" style="flex-direction: row; flex-wrap: wrap; flex-grow: 1; flex-shrink: 1;">
+        <Bindings>
+            <engine:DataBinding property="itemsSource" data-source-path="subChoices" binding-mode="ToTarget" />
+        </Bindings>
+    </engine:ListView>
+</engine:UXML>

@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/9-ui/RPG/UI/RPG.uss?fileID=7433441132597879392&amp;guid=abad1a4b4b0e9631fba56663b884d024&amp;type=3#RPG" />
+    <engine:VisualElement class="frame" style="flex-grow: 0; position: absolute; right: 0; bottom: 32px; top: 32px; width: 50px; flex-shrink: 0;">
+        <engine:VisualElement style="flex-direction: row; font-size: 24px; -unity-text-align: middle-left; align-items: center; flex-shrink: 0;">
+            <engine:VisualElement style="flex-grow: 1; width: 12px; height: 12px; max-height: 12px; max-width: 12px; background-image: url(&quot;project://database/Assets/9-ui/RPG/UI/frame.png?fileID=2800000&amp;guid=11ba39b5961c2a046a9c8ace9ea654a3&amp;type=3#frame&quot;); -unity-slice-left: 16; -unity-slice-top: 16; -unity-slice-right: 16; -unity-slice-bottom: 16;" />
+            <engine:Label text="Title&#10;" />
+        </engine:VisualElement>
+        <engine:Label text="This is some long content that needs to be split across multiple lines&#10;" name="Label" style="white-space: normal;" />
+    </engine:VisualElement>
+</engine:UXML>

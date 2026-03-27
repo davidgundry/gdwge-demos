@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="Choice" src="project://database/Assets/9-ui/RPG/UI/Choice.uxml?fileID=9197481963319205126&amp;guid=a0b8643150d9d490fa9159b1511d2d76&amp;type=3#Choice" />
+    <engine:Template name="Subchoice" src="project://database/Assets/9-ui/RPG/UI/Subchoice.uxml?fileID=9197481963319205126&amp;guid=c62970f747d756d04b3733aadad02702&amp;type=3#Subchoice" />
+    <engine:Instance template="Choice" enabled="true" data-source="project://database/Assets/9-ui/RPG/ScriptableObjects/ChoicesData.asset?fileID=11400000&amp;guid=48ea2c9e3452e506fae341f1cb83a408&amp;type=2#ChoicesData" style="position: absolute; left: -5px; bottom: -3px;">
+        <Bindings>
+            <engine:DataBinding property="enabledSelf" data-source-path="choicesEnabled" binding-mode="ToTarget" />
+        </Bindings>
+    </engine:Instance>
+    <engine:Instance template="Subchoice" style="position: absolute; top: auto; left: 15px; width: 130px; bottom: 25px; height: 47px;" />
+</engine:UXML>

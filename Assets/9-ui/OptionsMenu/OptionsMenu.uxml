@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/9-ui/OptionsMenu.uss?fileID=7433441132597879392&amp;guid=a0480cf17bfd416488a029a59820980d&amp;type=3#OptionsMenu" />
+    <ui:VisualElement style="flex-grow: 1; -unity-slice-right: 32;">
+        <ui:TabView focusable="true" tabindex="1">
+            <ui:Tab label="Settings" tabindex="0">
+                <ui:Foldout text="Audio" class="input" style="align-items: stretch;">
+                    <ui:Slider label="SFX" value="42" high-value="100" name="sfx" class="input" />
+                    <ui:Slider label="Music" value="42" high-value="100" name="music" class="input" />
+                </ui:Foldout>
+                <ui:Foldout text="Graphics" class="input" style="-unity-slice-bottom: 16; background-color: rgba(255, 255, 255, 0);">
+                    <ui:EnumField label="Quality" value="Center" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" name="quality" class="input" />
+                    <ui:DropdownField label="Resolution" choices="640x480,1920x1080" name="resolution" class="input" style="width: 223px;" />
+                    <ui:Toggle label="Full Screen" name="fullScreen" enabled="true" value="false" toggle-on-label-click="true" class="button input" />
+                    <ui:Button text="Apply Changes" name="applyGraphicsChanges" class="button input" />
+                </ui:Foldout>
+            </ui:Tab>
+            <ui:Tab label="Gameplay">
+                <ui:EnumField label="Difficulty" value="Center" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" />
+            </ui:Tab>
+            <ui:Tab label="Save" />
+        </ui:TabView>
+    </ui:VisualElement>
+</ui:UXML>

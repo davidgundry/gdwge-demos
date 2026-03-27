@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/9-ui/RPG/UI/RPG.uss?fileID=7433441132597879392&amp;guid=abad1a4b4b0e9631fba56663b884d024&amp;type=3#RPG" />
+    <engine:VisualElement class="frame" style="flex-grow: 0; align-self: center; max-height: 32px; flex-shrink: 0; left: auto; right: auto; top: 1px;">
+        <engine:Label text="This is some text that might stretch to two lines in a fairly large font... and then some more text...." style="white-space: pre-wrap;" />
+    </engine:VisualElement>
+</engine:UXML>

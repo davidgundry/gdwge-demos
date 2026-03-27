@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/11-improving-workflows/Editor/SearchTool.uss?fileID=7433441132597879392&amp;guid=a5935bf12b3df2a59933ecc737cae943&amp;type=3#SearchTool" />
+    <engine:ToggleButtonGroup label="Search within" is-multiple-selection="true" value="0" allow-empty-selection="true" enabled="true" style="height: auto; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; align-content: flex-start; align-self: auto; justify-content: flex-start; width: auto;">
+        <engine:Toggle label="Assets" value="true" name="useAssets" style="flex-direction: row;" />
+        <engine:Toggle label="Packages" name="usePackages" style="flex-direction: row;" />
+    </engine:ToggleButtonGroup>
+    <engine:ListView />
+    <engine:TextField name="query" />
+    <engine:Button class="custom-button" name="search" text="Search" />
+</engine:UXML>

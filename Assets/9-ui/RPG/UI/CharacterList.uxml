@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="Character" src="project://database/Assets/9-ui/RPG/UI/Character.uxml?fileID=9197481963319205126&amp;guid=729cdff81254b9c0badf6b1eae380305&amp;type=3#Character" />
+    <Style src="project://database/Assets/9-ui/RPG/UI/RPG.uss?fileID=7433441132597879392&amp;guid=abad1a4b4b0e9631fba56663b884d024&amp;type=3#RPG" />
+    <engine:VisualElement style="flex-grow: 0; flex-direction: row-reverse; align-self: flex-start; align-items: flex-end; justify-content: flex-start; flex-shrink: 1; bottom: -3px; left: 57px; position: absolute;">
+        <engine:Instance template="Character" data-source="project://database/Assets/9-ui/RPG/ScriptableObjects/Character3.asset?fileID=11400000&amp;guid=29e3127851a7257e580bca0f7e1e55a9&amp;type=2#Character3" />
+        <engine:Instance template="Character" data-source="project://database/Assets/9-ui/RPG/ScriptableObjects/Character2.asset?fileID=11400000&amp;guid=82a7dcb3a4c7fda3fb92ec1e7e24a8b0&amp;type=2#Character2" />
+        <engine:Instance template="Character" data-source-type="CharacterData, Assembly-CSharp" data-source="project://database/Assets/9-ui/RPG/ScriptableObjects/Character1.asset?fileID=11400000&amp;guid=3d36b29e907b93961b042c5eec168139&amp;type=2#Character1">
+            <Bindings>
+                <engine:DataBinding property="style.display" data-source-path="display" data-source-type="CharacterData, Assembly-CSharp" binding-mode="ToTarget" />
+            </Bindings>
+        </engine:Instance>
+    </engine:VisualElement>
+</engine:UXML>

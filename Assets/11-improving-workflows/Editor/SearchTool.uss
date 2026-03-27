@@ -1,0 +1,4 @@
+.custom-button {
+    -unity-font-style: bold;
+    color: rgb(255, 111, 111);
+}

@@ -1,0 +1,40 @@
+.input {
+    color: rgb(231, 174, 33);
+    max-width: none;
+    width: auto;
+    align-items: stretch;
+    align-content: auto;
+    justify-content: flex-start;
+    align-self: flex-start;
+    -unity-slice-top: 8;
+    -unity-slice-bottom: 8;
+    -unity-slice-left: 32;
+    -unity-slice-right: 32;
+    background-image: url("project://database/Assets/9-ui/button.png?fileID=2800000&guid=20e4e0c113d175846949a9102bc5bf3b&type=3#button");
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+Toggle:checked > .unity-toggle__input > .unity-toggle__checkmark {
+    background-image: url("project://database/Assets/9-ui/toggle.png?fileID=1453699375&guid=bf5acf428d046b3f298a3d3f6eafb320&type=3#toggle_2");
+}
+
+Toggle > .unity-toggle__input > .unity-toggle__checkmark {
+    background-image: url("project://database/Assets/9-ui/toggle.png?fileID=712737635&guid=bf5acf428d046b3f298a3d3f6eafb320&type=3#toggle_0");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    border-top-width: 0;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: 32px 32px;
+    -unity-background-scale-mode: scale-to-fit;
+}
